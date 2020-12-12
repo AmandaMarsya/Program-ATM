@@ -1,14 +1,14 @@
-# Program-ATM
+# PROGRAM ATM 
 pin = '123456'
 saldo = 0
 
-print('Selamat Datang di program ATM BNB')
+print('Selamat Datang di program ATM, BANK BNB')
 
 for i in range(3):
     print()
     inPin = input("Silahkan masukkan 6 digit pin anda : ")
-    if inPin 
-    print()
+    if inPin == pin :
+        print()
         print("PIN yang Anda masukkan benar")
         print()
         break
